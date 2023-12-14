@@ -52,8 +52,7 @@ def separate_leaf_core(image, counter):
         plt.title(titles[i], fontsize=25)
         plt.xticks([]), plt.yticks([])
     plt.show()
-    file_name = "Leaf Process " + str(counter + 1) + ".png"
-    plt.savefig(file_name)
+
 
 
 path = "images"
